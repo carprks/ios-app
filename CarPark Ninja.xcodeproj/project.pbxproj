@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F3B4DD2822DA9EEE00FF3167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4DD2722DA9EEE00FF3167 /* AppDelegate.swift */; };
-		F3B4DD2A22DA9EEE00FF3167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4DD2922DA9EEE00FF3167 /* ViewController.swift */; };
-		F3B4DD2D22DA9EEE00FF3167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B4DD2B22DA9EEE00FF3167 /* Main.storyboard */; };
 		F3B4DD3022DA9EEE00FF3167 /* CarPark_Ninja.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3B4DD2E22DA9EEE00FF3167 /* CarPark_Ninja.xcdatamodeld */; };
 		F3B4DD3222DA9EEF00FF3167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B4DD3122DA9EEF00FF3167 /* Assets.xcassets */; };
-		F3B4DD3522DA9EEF00FF3167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B4DD3322DA9EEF00FF3167 /* LaunchScreen.storyboard */; };
 		F3B4DD4022DA9EF000FF3167 /* CarPark_NinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4DD3F22DA9EF000FF3167 /* CarPark_NinjaTests.swift */; };
 		F3B4DD4B22DA9EF000FF3167 /* CarPark_NinjaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4DD4A22DA9EF000FF3167 /* CarPark_NinjaUITests.swift */; };
+		F3B4DD6122DAA57700FF3167 /* CarplayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B4DD6022DAA57700FF3167 /* CarplayView.xib */; };
+		F3B4DD6422DAA5E700FF3167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4DD6322DAA5E700FF3167 /* ViewController.swift */; };
+		F3B4DD6622DAA66500FF3167 /* CustomNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B4DD6522DAA66500FF3167 /* CustomNavigationViewController.swift */; };
+		F3B4DD6B22DAA6C900FF3167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B4DD6722DAA6C900FF3167 /* Main.storyboard */; };
+		F3B4DD6C22DAA6C900FF3167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B4DD6922DAA6C900FF3167 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +39,8 @@
 /* Begin PBXFileReference section */
 		F3B4DD2422DA9EEE00FF3167 /* CarPark Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CarPark Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B4DD2722DA9EEE00FF3167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3B4DD2922DA9EEE00FF3167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3B4DD2C22DA9EEE00FF3167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3B4DD2F22DA9EEE00FF3167 /* CarPark_Ninja.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarPark_Ninja.xcdatamodel; sourceTree = "<group>"; };
 		F3B4DD3122DA9EEF00FF3167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3B4DD3422DA9EEF00FF3167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3B4DD3622DA9EF000FF3167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3B4DD3B22DA9EF000FF3167 /* CarPark NinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CarPark NinjaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B4DD3F22DA9EF000FF3167 /* CarPark_NinjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPark_NinjaTests.swift; sourceTree = "<group>"; };
@@ -49,6 +48,12 @@
 		F3B4DD4622DA9EF000FF3167 /* CarPark NinjaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CarPark NinjaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B4DD4A22DA9EF000FF3167 /* CarPark_NinjaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPark_NinjaUITests.swift; sourceTree = "<group>"; };
 		F3B4DD4C22DA9EF000FF3167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B4DD5B22DAA1A300FF3167 /* CarPark Ninja.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CarPark Ninja.entitlements"; sourceTree = "<group>"; };
+		F3B4DD6022DAA57700FF3167 /* CarplayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CarplayView.xib; path = Views/CarplayView.xib; sourceTree = "<group>"; };
+		F3B4DD6322DAA5E700FF3167 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewControllers/ViewController.swift; sourceTree = "<group>"; };
+		F3B4DD6522DAA66500FF3167 /* CustomNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomNavigationViewController.swift; path = ViewControllers/CustomNavigationViewController.swift; sourceTree = "<group>"; };
+		F3B4DD6822DAA6C900FF3167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Views/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3B4DD6A22DAA6C900FF3167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Views/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,7 @@
 				F3B4DD3E22DA9EF000FF3167 /* CarPark NinjaTests */,
 				F3B4DD4922DA9EF000FF3167 /* CarPark NinjaUITests */,
 				F3B4DD2522DA9EEE00FF3167 /* Products */,
+				F3B4DD5822DAA19400FF3167 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +105,11 @@
 		F3B4DD2622DA9EEE00FF3167 /* CarPark Ninja */ = {
 			isa = PBXGroup;
 			children = (
+				F3B4DD6222DAA57E00FF3167 /* ViewControllers */,
+				F3B4DD5F22DAA55C00FF3167 /* Views */,
+				F3B4DD5B22DAA1A300FF3167 /* CarPark Ninja.entitlements */,
 				F3B4DD2722DA9EEE00FF3167 /* AppDelegate.swift */,
-				F3B4DD2922DA9EEE00FF3167 /* ViewController.swift */,
-				F3B4DD2B22DA9EEE00FF3167 /* Main.storyboard */,
 				F3B4DD3122DA9EEF00FF3167 /* Assets.xcassets */,
-				F3B4DD3322DA9EEF00FF3167 /* LaunchScreen.storyboard */,
 				F3B4DD3622DA9EF000FF3167 /* Info.plist */,
 				F3B4DD2E22DA9EEE00FF3167 /* CarPark_Ninja.xcdatamodeld */,
 			);
@@ -126,6 +132,32 @@
 				F3B4DD4C22DA9EF000FF3167 /* Info.plist */,
 			);
 			path = "CarPark NinjaUITests";
+			sourceTree = "<group>";
+		};
+		F3B4DD5822DAA19400FF3167 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B4DD5F22DAA55C00FF3167 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3B4DD6922DAA6C900FF3167 /* LaunchScreen.storyboard */,
+				F3B4DD6722DAA6C900FF3167 /* Main.storyboard */,
+				F3B4DD6022DAA57700FF3167 /* CarplayView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F3B4DD6222DAA57E00FF3167 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3B4DD6522DAA66500FF3167 /* CustomNavigationViewController.swift */,
+				F3B4DD6322DAA5E700FF3167 /* ViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +228,20 @@
 				TargetAttributes = {
 					F3B4DD2322DA9EEE00FF3167 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 					F3B4DD3A22DA9EF000FF3167 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -232,9 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B4DD3522DA9EEF00FF3167 /* LaunchScreen.storyboard in Resources */,
+				F3B4DD6B22DAA6C900FF3167 /* Main.storyboard in Resources */,
+				F3B4DD6C22DAA6C900FF3167 /* LaunchScreen.storyboard in Resources */,
 				F3B4DD3222DA9EEF00FF3167 /* Assets.xcassets in Resources */,
-				F3B4DD2D22DA9EEE00FF3167 /* Main.storyboard in Resources */,
+				F3B4DD6122DAA57700FF3167 /* CarplayView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B4DD2A22DA9EEE00FF3167 /* ViewController.swift in Sources */,
 				F3B4DD2822DA9EEE00FF3167 /* AppDelegate.swift in Sources */,
+				F3B4DD6622DAA66500FF3167 /* CustomNavigationViewController.swift in Sources */,
+				F3B4DD6422DAA5E700FF3167 /* ViewController.swift in Sources */,
 				F3B4DD3022DA9EEE00FF3167 /* CarPark_Ninja.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,18 +345,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F3B4DD2B22DA9EEE00FF3167 /* Main.storyboard */ = {
+		F3B4DD6722DAA6C900FF3167 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3B4DD2C22DA9EEE00FF3167 /* Base */,
+				F3B4DD6822DAA6C900FF3167 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F3B4DD3322DA9EEF00FF3167 /* LaunchScreen.storyboard */ = {
+		F3B4DD6922DAA6C900FF3167 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3B4DD3422DA9EEF00FF3167 /* Base */,
+				F3B4DD6A22DAA6C900FF3167 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -436,7 +484,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "CarPark Ninja/CarPark Ninja.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RM96X7JX9K;
 				INFOPLIST_FILE = "CarPark Ninja/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,7 +503,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "CarPark Ninja/CarPark Ninja.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RM96X7JX9K;
 				INFOPLIST_FILE = "CarPark Ninja/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
